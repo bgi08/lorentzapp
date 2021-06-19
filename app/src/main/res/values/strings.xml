@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Nitin\'sApp </string>
+    <string name="practice_session">Practice Session</string>
+    <string name="result">Result</string>
+    <string name="refresh">refresh</string>
+    <string name="check_result">check result</string>
+    <string name="your_answer">Your Answer</string>
+    <string name="enter_velocity1">Enter Velocity</string>
+    <string name="spi_factor">Spi factor</string>
+    <string name="textview">TextView</string>
+    <string name="practice_mode">practice mode</string>
+    <string name="normal_mode">normal mode</string>
+    <string name="lorentz_formula">lorentz formula</string>
+    <string name="spi_factor1">spi factor</string>
+    <string name="mathify">Mathify</string>
+    <string name="made_for_spider_inductions">Made for Spider Inductions</string>
+    <string name="enter_velocity">Enter Velocity</string>
+    <string name="calculate">Calculate</string>
+    <string name="result1">Result</string>
+    <string name="refresh1">refresh</string>
+    <string name="todo">TODO</string>
+</resources>
