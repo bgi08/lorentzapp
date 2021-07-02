@@ -1,5 +1,1 @@
-TASK 1
-APP DEVELOPMENT
-SPIDER R&D
-
-
+# task1appdev
