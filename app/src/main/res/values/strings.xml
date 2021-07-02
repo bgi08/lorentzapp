@@ -12,11 +12,14 @@
     <string name="normal_mode">normal mode</string>
     <string name="lorentz_formula">lorentz formula</string>
     <string name="spi_factor1">spi factor</string>
-    <string name="mathify">Spilort</string>
+    <string name="mathify">Mathify</string>
     <string name="made_for_spider_inductions">Made for Spider Inductions</string>
     <string name="enter_velocity">Enter Velocity</string>
     <string name="calculate">Calculate</string>
     <string name="result1">Result</string>
     <string name="refresh1">refresh</string>
     <string name="todo">TODO</string>
+    <string name="clear">clear</string>
+    <string name="history">history</string>
+    <string name="clear1">clear</string>
 </resources>

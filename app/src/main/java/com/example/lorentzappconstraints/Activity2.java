@@ -27,7 +27,7 @@ public class Activity2 extends AppCompatActivity {
         Button refreshbtn =(Button) findViewById(R.id.refreshbtn);
 
         result = findViewById(R.id.result);
-        input.setOnTouchListener(new View.OnTouchListener() {
+        /*input.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 input.setHint("");
@@ -37,11 +37,11 @@ public class Activity2 extends AppCompatActivity {
         input.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
-                if (!hasFocus) {
+                if (hasFocus) {
                     input.setHint("Enter velocity");
                 }
             }
-        });
+        });*/
 
         calculate.setOnClickListener(new View.OnClickListener() {
             @Override

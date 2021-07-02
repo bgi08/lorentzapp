@@ -36,10 +36,15 @@ public class Activity5 extends AppCompatActivity {
     {
         Intent intent = new Intent(this,Activity2.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.slideinright,R.anim.slideoutleft);
+
     }
     public void openactivity3()
     {
         Intent intent1 = new Intent(this,Activity3.class);
         startActivity(intent1);
+        overridePendingTransition(R.anim.slideinright,R.anim.slideoutleft);
+
     }
+
 }

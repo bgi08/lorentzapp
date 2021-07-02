@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         spibutton=(Button)findViewById(R.id.spibtn);
         spibutton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v){
                 openactivity4();
             }
         });
@@ -30,8 +30,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                openactivity5();
+               openactivity5();
             }
         });
 
@@ -58,13 +57,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void openactivity4()
     {
-        Intent intent2= new Intent(this,Activity4.class);
+                Intent intent2= new Intent(this,Activity4.class);
         startActivity(intent2);
+        overridePendingTransition(R.anim.slideinright,R.anim.slideoutleft);
     }
     public void openactivity5()
     {
         Intent intent3=new Intent(this,Activity5.class);
         startActivity(intent3);
+        overridePendingTransition(R.anim.slideinright,R.anim.slideoutleft);
     }
-
 }

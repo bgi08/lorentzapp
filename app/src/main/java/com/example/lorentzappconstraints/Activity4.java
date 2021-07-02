@@ -1,5 +1,6 @@
 package com.example.lorentzappconstraints;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.TextClock;
@@ -16,11 +17,14 @@ public class Activity4 extends AppCompatActivity {
     TextClock tClock;
     ConstraintLayout spilayout;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_4);
         spilayout=findViewById(R.id.spilayout);
+
 
         value = findViewById(R.id.calval);
         tClock =  findViewById(R.id.textClock1);
@@ -42,9 +46,9 @@ public class Activity4 extends AppCompatActivity {
       /*  Timer timer=new Timer();
         Mytimer1 myTimer=new Mytimer1();
         timer.schedule(myTimer,100,1500);*/
-
-
     }
+
+
   /*  public class Mytimer1 extends TimerTask {
 
         @Override
@@ -73,3 +77,6 @@ public class Activity4 extends AppCompatActivity {
     }
 
 }
+
+
+
